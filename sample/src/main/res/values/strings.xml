@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StateLayout</string>
+    <string name="show_content_view">Show content view</string>
+    <string name="show_loading_view">Show loading view</string>
+    <string name="show_error_view">Show error view</string>
+    <string name="show_custom_view">Show custom view</string>
+</resources>

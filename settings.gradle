@@ -1,0 +1,3 @@
+rootProject.name='StateLayout'
+include ':sample'
+include ':library'

@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/content"
+        android:title="@string/show_content_view"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/loading"
+        android:title="@string/show_loading_view"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/error"
+        android:title="@string/show_error_view"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/custom"
+        android:title="@string/show_custom_view"
+        app:showAsAction="never" />
+</menu>
