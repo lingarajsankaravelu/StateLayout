@@ -37,7 +37,7 @@ class StateLayout
     override fun onFinishInflate() {
         super.onFinishInflate()
         if (childCount > 1) {
-            throw IllegalArgumentException("You must have only one content view.")
+            throw IllegalArgumentException("StateLayout can host only one direct child")
         }
         if (childCount == 1) {
             val contentView = getChildAt(0)
